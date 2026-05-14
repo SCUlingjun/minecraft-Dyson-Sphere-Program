@@ -1,0 +1,13 @@
+{
+  "itemGroup.dysonsphereprogram": "Example Mod Tab",
+  "block.dysonsphereprogram.example_block": "Example Block",
+  "item.dysonsphereprogram.example_item": "Example Item",
+
+  "dysonsphereprogram.configuration.title": "Dyson Sphere Program Configs",
+  "dysonsphereprogram.configuration.section.dysonsphereprogram.common.toml": "Dyson Sphere Program Configs",
+  "dysonsphereprogram.configuration.section.dysonsphereprogram.common.toml.title": "Dyson Sphere Program Configs",
+  "dysonsphereprogram.configuration.items": "Item List",
+  "dysonsphereprogram.configuration.logDirtBlock": "Log Dirt Block",
+  "dysonsphereprogram.configuration.magicNumberIntroduction": "Magic Number Text",
+  "dysonsphereprogram.configuration.magicNumber": "Magic Number"
+}
