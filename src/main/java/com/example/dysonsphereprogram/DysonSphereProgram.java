@@ -30,6 +30,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import com.example.dysonsphereprogram.block.ModBlocks;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(DysonSphereProgram.MODID)
@@ -76,6 +77,8 @@ public class DysonSphereProgram {
         // Register the Deferred Register to the mod event bus so tabs get registered
         CREATIVE_MODE_TABS.register(modEventBus);
 
+        // Ensure ModBlocks static initializers run and register block/item entries
+        ModBlocks.register();
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (DysonSphereProgram) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
